@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "etl-project"
+version = "0.1.0"
+description = "etl"
+authors = ["francisco"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+click = "^8.1.7"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
